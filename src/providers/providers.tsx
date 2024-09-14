@@ -20,7 +20,7 @@ const Providers = (props: React.PropsWithChildren) => {
       <ThemeProvider theme={theme}>
         <GlobalStyles />
         <Analytics />
-        <GoogleAnalytics gaId="G-675HG95714" />
+        <GoogleAnalytics gaId="G-4SRXJ9276Q" />
         {props.children}
       </ThemeProvider>
       <ToastContainer />
