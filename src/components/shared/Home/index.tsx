@@ -9,7 +9,7 @@ const Home = () => {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <title>Sugar Defender 24</title>
+        <title>Sugar Defender</title>
         <style>{`
           body {
             font-family: Arial, sans-serif;
@@ -167,7 +167,7 @@ const Home = () => {
       </Head>
 
       <header>
-        <h1>Sugar Defender 24</h1>
+        <h1>Sugar Defender</h1>
         <p>Protect your health by controlling your blood sugar levels</p>
       </header>
 
@@ -223,7 +223,7 @@ const Home = () => {
 
       <footer>
         <p>
-          &copy; 2024 Sugar Defender 24 |
+          &copy; 2024 Sugar Defender |
           <a href="https://sugardefender24.com/info/return-policy.html">
             Privacy Policy
           </a>
