@@ -33,8 +33,28 @@ export default class MyDocument extends Document {
       <Html>
         <Head>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossOrigin="anonymous"
+          />
           <link rel="shortcut icon" href="/favicon.png" type="image/png" />
+
+          {/* Google Tag Manager */}
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=AW-16686449583"
+          ></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'AW-16686449583');
+              `,
+            }}
+          />
         </Head>
         <body>
           <Main />
