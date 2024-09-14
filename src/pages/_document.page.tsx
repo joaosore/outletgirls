@@ -55,6 +55,17 @@ export default class MyDocument extends Document {
               `,
             }}
           />
+          {/* Event snippet for Compra conversion page */}
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                gtag('event', 'conversion', {
+                  'send_to': 'AW-16686449583/tlcVCM204dIZEK-H3JQ-',
+                  'transaction_id': ''
+                });
+              `,
+            }}
+          />
         </Head>
         <body>
           <Main />
